@@ -1,0 +1,23 @@
+[package]
+name = "reco_os"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+[build-dependencies]
+bootloader = "0.11.15"
+
+[dependencies.spin]
+version = "0.9.9"
+default-features = false
+features = ["spin_mutex"]
+
+[dependencies.lazy_static]
+version = "1.4.0"
+features = ["spin_no_std"]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
