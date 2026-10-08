@@ -1,4 +1,6 @@
 # Rectangle OS
+<img width="1920" height="1080" alt="تصميم بدون عنوان" src="https://github.com/user-attachments/assets/d0412b27-7c19-4528-8694-3eb758c38b7c" />
+
 
 "Freedom in every rectangle."
 
